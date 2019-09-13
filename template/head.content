@@ -1,0 +1,19 @@
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>W3.CSS Template</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="@pathtofile(site/css/w3.css)">
+<link rel="stylesheet" href="@pathtofile(site/css/css)">
+<link rel="stylesheet" href="@pathtofile(site/css/font-awesome.min.css)">
+<link rel="stylesheet" href="@pathtofile(site/css/pre.css)">
+
+<style>
+  body
+  {
+    font-family: "Lato", sans-serif;
+  }
+
+  .mySlides
+  {
+    display: none;
+  }
+</style>

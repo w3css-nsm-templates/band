@@ -1,0 +1,9 @@
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+  @input(content/slideshow.content)
+  @input(content/band.content)
+  @input(content/tour.content)
+  @input(content/ticket.content)
+  @input(content/contact.content)
+<!-- End Page Content -->
+</div>
