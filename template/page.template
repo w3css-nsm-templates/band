@@ -47,9 +47,9 @@
     }
     </script>
 
-    <script src="@pathtofile(site/js/process_pre_tags.js)"></script>
-    <script src='@pathtofile(site/js/process_md_blocks.js)'></script>
-    <script src="@pathtofile(site/js/showdown.min.js)"></script>
+    <script src="@pathtofile($[output-dir]/js/process_pre_tags.js)"></script>
+    <script src='@pathtofile($[output-dir]/js/process_md_blocks.js)'></script>
+    <script src="@pathtofile($[output-dir]/js/showdown.min.js)"></script>
     <script>
 	    var converter = new showdown.Converter();
 	    converter.setOption('tables', 'on');

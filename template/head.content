@@ -1,10 +1,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>W3.CSS Template</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="@pathtofile(site/css/w3.css)">
-<link rel="stylesheet" href="@pathtofile(site/css/css)">
-<link rel="stylesheet" href="@pathtofile(site/css/font-awesome.min.css)">
-<link rel="stylesheet" href="@pathtofile(site/css/pre.css)">
+<link rel="stylesheet" href="@pathtofile($[output-dir]/css/w3.css)">
+<link rel="stylesheet" href="@pathtofile($[output-dir]/css/css)">
+<link rel="stylesheet" href="@pathtofile($[output-dir]/css/font-awesome.min.css)">
+<link rel="stylesheet" href="@pathtofile($[output-dir]/css/pre.css)">
 
 <!-- uses google-code-prettify for syntax highlighting 
 	 see https://github.com/google/code-prettify for more info -->
